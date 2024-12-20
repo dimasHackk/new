@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <title>Profil</title>
+    <!-- import file eksternal.css -->
+    <link rel="stylesheet" type="text/css" href="eksternal.css" />
+    <!-- tag meta untuk responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- buat favicon -->
+    <link rel="icon" type="image/png" sizes="64x64" href="ext/logo.png" />
+
+</head>
+
+<body>
+    <!-- buat area header -->
+    <header class="header"></header>
+    <!-- buat area menu -->
+    <nav class="navigation">
+        <button class="tombol" onclick="home()">Home</button>
+        <button class="tombol" onclick="profil()">Profil</button>
+        <button class="tombol" onclick="Pendidikan()">Pendidikan</button>
+        <button class="tombol" onclick="Keahlian()">Keahlian</button>
+    </nav>
+    <!-- buat area content -->
+    <main class="content">
+        <!-- area content (side) -->
+        <aside class="side">
+
+            <!-- area logo -->
+            <section class="logo">
+                <figure>
+                    <img src="ext/WhatsApp Image 2023-11-19 at 18.25.26_f868362a.jpg" alt="Foto (Alt)" height="150px"
+                        width="120px" title="Foto (Title)">
+                    <figcaption>Kuliah</figcaption>
+                </figure>
+            </section>
+            <!-- area text -->
+            <section class="text">
+                <br>Universitas Teknokrat Indonesia
+                <br>
+                <br>Mulai : Th 2023-Lulus
+                <br>Status : Sedang Menempuh Sarjana Komputer
+                <br>Umur : 19th
+                <br>Prestasi : TOP Global Zilong
+                <br>Kegiatan : UkM Protek, Hima, Dll
+            </section>
+
+            <!-- area garis -->
+            <section class="garis"></section>
+
+            <!-- area logo -->
+            <section class="logo">
+                <figure>
+                    <img src="ext/SMA.jpg" alt="Foto (Alt)" height="150px" width="120px" title="Foto (Title)">
+                    <figcaption>SMA</figcaption>
+                </figure>
+            </section>
+            <!-- area text -->
+            <section class="text">
+                <br>SMAIT Baitul Jannah
+                <br>
+                <br>Mulai : Th 2020-2023
+                <br>Status : Lulus
+                <br>Umur : 16-18 th
+                <br>Prestasi : TOP Global push hafalan
+                <br>Kegiatan : Paskibraka
+            </section>
+            <!-- area garis -->
+            <section class="garis"></section>
+
+            <!-- area logo -->
+            <section class="logo">
+                <figure>
+                    <img src="ext/SMP.jpg" alt="Foto (Alt)" height="150px" width="120px" title="Foto (Title)">
+                    <figcaption>SMP</figcaption>
+                </figure>
+            </section>
+            <!-- area text -->
+            <section class="text">
+                <br>Ponpes Darussalam
+                <br>
+                <br>Mulai : Th 2017-2020
+                <br>Status : Lulus
+                <br>Umur : 13-15 th
+                <br>Prestasi : TOP Global Hafalan Al-Quran
+                <br>Kegiatan : Silat & pramuka
+            </section>
+            <!-- area garis -->
+            <section class="garis"></section>
+
+
+
+        </aside>
+        <!-- area content (main) -->
+        <article class="main">
+
+            <h2>Sejarah Pengalaman Sekolah Dimas Aprianto</h2>
+            <p>Sekolah Menengah Pertama (SMP) <br>
+                Pendidikan saya dimulai di SMP Mondok Pesantren, sebuah sekolah berbasis pesantren yang mengajarkan saya
+                pentingnya pendidikan agama serta disiplin. Di sini, selain mendapatkan pendidikan akademis, saya juga
+                dibimbing dalam aspek moral dan spiritual, yang membentuk karakter saya. Kegiatan seperti khotbah,
+                pengajian, dan pengembangan diri menjadi bagian dari rutinitas sehari-hari, yang turut memperkaya
+                wawasan saya dalam berbagai aspek kehidupan. Pengalaman di pesantren menanamkan nilai-nilai kejujuran,
+                tanggung jawab, dan kedisiplinan yang sangat mempengaruhi saya hingga sekarang.</p>
+
+            <p> Sekolah Menengah Atas (SMA) <br>
+                Setelah lulus dari SMP, saya melanjutkan pendidikan di SMA IT Baitul Jannah, sebuah sekolah dengan
+                pendekatan pendidikan berbasis agama dan teknologi. Di SMA ini, saya mempelajari berbagai mata pelajaran
+                teknologi yang memperkenalkan saya pada dunia digital dan desain. Selain itu, saya terlibat dalam
+                berbagai organisasi dan kegiatan ekstrakurikuler, yang tidak hanya meningkatkan kemampuan akademik,
+                tetapi juga keterampilan sosial dan kepemimpinan. Saya belajar bagaimana berkolaborasi dalam tim,
+                memimpin proyek, dan berkomunikasi dengan baik, yang menjadi bekal penting dalam karier saya di bidang
+                teknologi.</p>
+
+            <p> Perguruan Tinggi <br>
+                Saat ini, saya tengah menempuh pendidikan di Universitas Teknokrat Indonesia, di mana saya mengambil
+                program studi yang berfokus pada teknologi informasi, desain web, dan pemrograman. Di universitas ini,
+                saya semakin mendalami keterampilan teknis dan teoritis dalam bidang web design dan pemrograman, yang
+                sangat mendukung cita-cita saya untuk menjadi seorang programmer profesional. Selain mengikuti
+                perkuliahan, saya juga aktif dalam berbagai kegiatan yang berkaitan dengan teknologi dan pengembangan
+                diri, seperti seminar, workshop, dan proyek-proyek kecil yang memberikan pengalaman praktis. Di sinilah
+                saya merasa semakin dekat dengan tujuan karier saya, yaitu berkontribusi dalam dunia teknologi dan
+                inovasi.</p>
+
+        </article>
+    </main>
+    <!-- buat area footer -->
+    <footer class="footer">
+        Footer (Copyright &copy; 2020)
+    </footer>
+
+    <!-- fungsi js -->
+    <script>
+        // fungsi untuk tombol home
+        function home() {
+            //alihkan ke halaman home
+            location.href = "home.html";
+        }
+        // fungsi ke halaman profil
+        function profil() {
+            // window.open("profil.html");
+            location.href = "profil.html";
+        }
+        // fungsi ke halaman profil
+        function Pendidikan() {
+            // window.open("profil.html");
+            location.href = "pendidikan.html";
+        }
+        // fungsi ke halaman profil
+        function Keahlian() {
+            // window.open("profil.html");
+            location.href = "pengalaman.html";
+        }
+    </script>
+</body>
+
+</html>

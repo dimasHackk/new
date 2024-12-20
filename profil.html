@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>Profil</title>
+    <!-- import file eksternal.css -->
+    <link rel="stylesheet" type="text/css" href="eksternal.css" />
+    <!-- tag meta untuk responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- buat favicon -->
+    <link rel="icon" type="image/png" sizes="64x64" href="ext/logo.png" />
+
+</head>
+
+<body>
+    <!-- buat area header -->
+    <header class="header"></header>
+    <!-- buat area menu -->
+    <nav class="navigation">
+        <button class="tombol" onclick="home()">Home</button>
+        <button class="tombol" onclick="profil()">Profil</button>
+        <button class="tombol" onclick="Pendidikan()">Pendidikan</button>
+        <button class="tombol" onclick="Keahlian()">Keahlian</button>
+    </nav>
+    <!-- buat area content -->
+    <main class="content">
+        <!-- area content (side) -->
+        <aside class="side">
+
+            <!-- area logo -->
+            <section class="logo">
+                <figure>
+                    <img src="ext/Dimas.jpg" alt="Foto (Alt)" height="150px" width="120px" title="Foto (Title)">
+                    <figcaption>Profil</figcaption>
+                </figure>
+            </section>
+            <!-- area text -->
+            <section class="text">
+                <br>Nama : Dimas Aprianto
+                <br>Pendidikan :Sedang Menempuh Sarjana Komputer
+                <br>Umur : 19th
+                <br>Lahir : 03 April 2005
+                <br>Alamat : Pesawaran
+            </section>
+
+            <!-- area garis -->
+            <section class="garis"></section>
+
+            <!-- area logo -->
+            <section class="logo">
+                <figure>
+                    <img src="ext/lari.jpg" alt="Foto (Alt)" height="150px" width="120px" title="Foto (Title)">
+                    <figcaption>Hobi</figcaption>
+                </figure>
+            </section>
+            <!-- area text -->
+            <section class="text">
+                <br>
+                Saya menikmati running dan berenang sebagai hobi utama. Running membantu menjaga kebugaran, meningkatkan
+                stamina, dan melepaskan stres, sementara berenang memberikan relaksasi serta melatih seluruh tubuh untuk
+                keseimbangan dan kesehatan.
+            </section>
+            <!-- area garis -->
+            <section class="garis"></section>
+
+            <!-- area logo -->
+            <section class="logo">
+                <figure>
+                    <img src="ext/cita.jpg" alt="Foto (Alt)" height="150px" width="120px" title="Foto (Title)">
+                    <figcaption>Cita-Cita</figcaption>
+                </figure>
+            </section>
+            <!-- area text -->
+            <section class="text">
+                <br>
+                Saya bercita-cita menjadi seorang programmer profesional yang dapat menciptakan solusi teknologi
+                inovatif dan bermanfaat bagi banyak orang.
+            </section>
+            <!-- area garis -->
+            <section class="garis"></section>
+
+
+
+        </aside>
+        <!-- area content (main) -->
+        <article class="main">
+            <p>
+            <h3>Tentang Saya </h3>
+            Halo! Saya Dimas Aprianto, seorang web designer sekaligus mahasiswa semester 3. Saya memiliki minat
+            besar di dunia teknologi, khususnya di bidang pemrograman dan desain web. Selain itu, saya juga
+            menikmati aktivitas seperti berenang untuk menjaga keseimbangan antara pekerjaan dan gaya hidup sehat.
+
+            <ul>Keahlian
+                <li> Desain Web: Menguasai prinsip desain modern dan responsif.
+                <li>Pemrograman Web: Familiar dengan HTML, CSS, JavaScript, dan framework front-end seperti Bootstrap.
+                <li> Manajemen Proyek: Terampil dalam mengelola tugas untuk memenuhi tenggat waktu dengan baik.
+                </li>
+            </ul>
+            <ul>Pendidikan
+                <li> Mahasiswa Semester 3, Universitas Teknokrat Indonesia
+                <li> Program Studi: Informatika
+                </li>
+            </ul>
+            <ul>
+                Minat
+                <li>Pemrograman: Sedang belajar menjadi programmer untuk memperluas kemampuan teknis saya.
+                <li> Renang: Menikmati olahraga ini untuk relaksasi dan kesehatan.
+                </li>
+            </ul>
+            <ul> Kontak
+                <li> Email: dimasaprianto@Teknokrat.ac.id
+                <li> Instagram : @dimasiiip
+                <li> LinkedIn: @dimasker
+                </li>
+            </ul>
+            </p>
+        </article>
+    </main>
+    <!-- buat area footer -->
+    <footer class="footer">
+        Footer (Copyright &copy; 2020)
+    </footer>
+
+    <!-- fungsi js -->
+    <script>
+        // fungsi untuk tombol home
+        function home() {
+            //alihkan ke halaman home
+            location.href = "home.html";
+        }
+        // fungsi ke halaman profil
+        function profil() {
+            // window.open("profil.html");
+            location.href = "profil.html";
+        }
+        // fungsi ke halaman profil
+        function Pendidikan() {
+            // window.open("profil.html");
+            location.href = "pendidikan.html";
+        }
+        // fungsi ke halaman profil
+        function Keahlian() {
+            // window.open("profil.html");
+            location.href = "pengalaman.html";
+        }
+    </script>
+</body>
+
+</html>
